@@ -1,6 +1,5 @@
 import React from "react";
 export default function Card({ data }) {
-  console.log(data, "halo");
   return (
     <>
       <div className="drop-shadow-md bg-white rounded-lg p-3 flex w-full gap-3">

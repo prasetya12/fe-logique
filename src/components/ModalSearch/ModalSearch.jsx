@@ -19,8 +19,6 @@ export default function ModalSearch({ onCloseModal }) {
 
   const onHandleKeyDown = (event) => {
     if (event.key === "Enter") {
-      console.log("halo");
-      // Call the function when the Enter key is pressed
       onSubmitButton();
     }
   };
