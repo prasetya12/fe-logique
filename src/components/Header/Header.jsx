@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-export default function Header() {
+export default function Header({ onClickSearch }) {
   return (
     <>
       <div class="container-header">
@@ -9,7 +9,11 @@ export default function Header() {
         </div>
         <img src="/assets/logo/ngmusic_logo_header.svg" />
         <div className="pb-5">
-          <img className="cursor-pointer" src="/assets/icons/search.svg" />
+          <img
+            className="cursor-pointer"
+            src="/assets/icons/search.svg"
+            onClick={onClickSearch}
+          />
         </div>
       </div>
     </>

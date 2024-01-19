@@ -1,5 +1,5 @@
 import React from "react";
-export default function Input({ placeholder, value, onChange }) {
+export default function Input({ placeholder, value, onChange, onKeyDown }) {
   return (
     <>
       <input
@@ -7,6 +7,7 @@ export default function Input({ placeholder, value, onChange }) {
         placeholder={placeholder}
         value={value}
         onChange={onChange}
+        onKeyDown={onKeyDown}
       />
     </>
   );
