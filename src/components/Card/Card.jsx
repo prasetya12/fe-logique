@@ -4,7 +4,7 @@ export default function Card({ data }) {
     <>
       <div className="drop-shadow-md bg-white rounded-lg p-3 flex w-full gap-3">
         <div className="w-4/12">
-          <img className="w-full h-full" src={data?.artworkUrl60} />
+          <img className="w-full h-full" src={data?.artworkUrl100} />
         </div>
         <div className="w-8/12">
           <div className="font-semibold text-xs">{data?.trackName}</div>
