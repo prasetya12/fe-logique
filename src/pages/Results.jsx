@@ -7,6 +7,7 @@ export default function Results() {
   const { data } = useSelector((state) => state.music);
 
   console.log(data);
+  console.log(import.meta.env.VITE_API_URL);
 
   return (
     <>
